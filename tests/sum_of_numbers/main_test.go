@@ -1,0 +1,35 @@
+package test_test
+
+import (
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/willian2s/codewar-golang/pkg/sum_of_numbers"
+)
+
+func TestSumOfNumbers(t *testing.T) {
+	testCases := []struct {
+		a, b, expected int
+	}{
+		{0, 1, 1},
+		{1, 2, 3},
+		{5, -1, 14},
+		{505, 4, 127759},
+		{321, 123, 44178},
+		{0, -1, -1},
+		{-50, 0, -1275},
+		{-1, -5, -15},
+		{-5, -5, -5},
+		{-505, 4, -127755},
+		{-321, 123, -44055},
+		{0, 0, 0},
+		{-5, -1, -15},
+		{5, 1, 15},
+		{-17, -17, -17},
+		{17, 17, 17},
+	}
+
+	for _, testCase := range testCases {
+		assert.Equal(t, testCase.expected, sum_of_numbers.GetSum(testCase.a, testCase.b))
+	}
+}
