@@ -1,4 +1,4 @@
-package sum_of_numbers
+package sumofnumbers
 
 func GetSum(a, b int) int {
 	if a > b {

@@ -1,4 +1,4 @@
-package cat_years_dog_years
+package catyearsdogyears
 
 func CalculateYears(years int) (result [3]int) {
 	catYears := 0

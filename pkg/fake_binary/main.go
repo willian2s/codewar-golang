@@ -1,4 +1,4 @@
-package fake_binary
+package fakebinary
 
 // FakeBinary converts a string of decimal digits to binary digits.
 //

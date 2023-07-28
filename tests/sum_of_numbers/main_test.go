@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/willian2s/codewar-golang/pkg/sum_of_numbers"
+	sumofnumbers "github.com/willian2s/codewar-golang/pkg/sum_of_numbers"
 )
 
 func TestSumOfNumbers(t *testing.T) {
@@ -30,6 +30,6 @@ func TestSumOfNumbers(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		assert.Equal(t, testCase.expected, sum_of_numbers.GetSum(testCase.a, testCase.b))
+		assert.Equal(t, testCase.expected, sumofnumbers.GetSum(testCase.a, testCase.b))
 	}
 }
