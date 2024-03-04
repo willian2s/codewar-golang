@@ -1,10 +1,10 @@
-package test_test
+package fakebinary_test
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	fakebinary "github.com/willian2s/codewar-golang/pkg/fake_binary"
+	fakebinary "github.com/willian2s/codewar-golang/fake_binary"
 )
 
 func TestFakeBinary(t *testing.T) {

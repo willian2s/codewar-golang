@@ -1,10 +1,10 @@
-package test_test
+package summation_test
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/willian2s/codewar-golang/pkg/summation"
+	"github.com/willian2s/codewar-golang/summation"
 )
 
 func TestSummation(t *testing.T) {

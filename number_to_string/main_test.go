@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	numbertostring "github.com/willian2s/codewar-golang/pkg/number_to_string"
+	numbertostring "github.com/willian2s/codewar-golang/number_to_string"
 )
 
 func TestNumberToString(t *testing.T) {

@@ -1,10 +1,10 @@
-package cat_years_dog_years_test
+package catyearsdogyears_test
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	catyearsdogyears "github.com/willian2s/codewar-golang/pkg/cat_years_dog_years"
+	catyearsdogyears "github.com/willian2s/codewar-golang/cat_years_dog_years"
 )
 
 func TestCalculateYears(t *testing.T) {

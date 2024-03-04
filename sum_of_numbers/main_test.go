@@ -1,10 +1,10 @@
-package test_test
+package sumofnumbers_test
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	sumofnumbers "github.com/willian2s/codewar-golang/pkg/sum_of_numbers"
+	sumofnumbers "github.com/willian2s/codewar-golang/sum_of_numbers"
 )
 
 func TestSumOfNumbers(t *testing.T) {
